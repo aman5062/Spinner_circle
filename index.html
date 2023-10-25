@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: black;
+        }
+        #spinner{
+            align-items: center;
+            margin-top: 10%;
+            margin-left: 50%;
+        }
+        .loader {
+            width: 150px;
+            height: 150px;
+            border: 5px solid #38ff8e;
+            border-top: 5px solid transparent;
+            border-radius: 50%;
+            animation: spin 0.9s linear infinite;
+            box-shadow: 2px 2px 2px 2px #939fee;
+            position: absolute;
+        }
+        .insider {
+            margin: 20px;
+            top: 20px;
+            width: 100px;
+            height: 100px;
+            border: 5px solid #3853ff;
+            box-shadow: 2px 2px 2px 2px #8dcda9;
+            border-top: 5px solid transparent;
+            border-radius: 50%;
+            animation: spin_insider 0.9s linear infinite;
+            position: relative;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            } 
+        }
+        @keyframes spin_insider {
+            0% {
+                transform: rotate(360deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div id="spinner">
+        <div class="loader"></div><div class="insider">
+        </div>
+    </div>
+</body>
+</html>
