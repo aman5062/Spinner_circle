@@ -1,3 +1,3 @@
 # Spinner_circle
 
-<img src="https://github.com/aman5062/Spinner_circle/blob/main/WhatsApp%20Video%202023-10-25%20at%2019.40.00_2845a561.mp4"></img>
+<img src="https://github.com/debbugers/Spinner_circle/assets/146553521/be2d884d-41f1-4779-a3ea-3cae16cd134b"></img>
